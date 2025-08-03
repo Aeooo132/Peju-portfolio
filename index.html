@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twilight Portfolio</title>
+
+  <!-- Bootstrap & Google Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar.no-border {
+      border: none !important;
+      box-shadow: none !important;
+    }
+
+    .btn {
+      border-radius: 30px !important;
+    }
+
+    .text-end-centered {
+      text-align: center !important;
+    }
+
+    .hero-cta {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 2rem;
+    }
+
+    /* Font for the main heading */
+    h1 {
+      font-family: 'Playfair Display', serif;
+      direction: ltr; /* Ensures text flows left to right */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-5 no-border">
+  <a class="navbar-brand" href="#">
+    <img src="./assets/Logo.png" alt="Logo" height="55">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+    <div class="ms-auto text-end">
+        <div class="text-end-centered">
+            <a href="#" class="btn btn-dark rounded-pill">Design your story →</a><br>
+            <small class="d-block mt-1 text-purple">Let’s design something beautiful together</small>
+        </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container py-5">
+  <div class="row align-items-center">
+    <!-- Left: Image with brush background -->
+    <div class="col-md-6 text-center">
+      <div class="img-bg">
+        <img src="./assets/photo.png" alt="Profile" class="img-fluid rounded">
+      </div>
+    </div>
+
+<!-- Right: Text -->
+<div class="col-md-6 mt-4 mt-md-0 d-flex justify-content-md-end">
+  <div class="text-right-hero text-md-end text-center">
+   <h1 class="hero-title"><span class="highlight cursive"><em>Designing</em></span> stories,<br>One pixel at a time</h1>
+    <p class="text-purple small mb-0">I'm Twilight, a product designer who brings stories to life in the language of color and creativity</p>
+
+    <!-- CTA Button -->
+    <div class="hero-cta mt-3">
+      <a href="#" class="btn btn-dark">Explore My Work →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

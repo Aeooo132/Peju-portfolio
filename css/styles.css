@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.highlight {
+  color: #8732a8;
+}
+
+/* Show both Star and Brushstroke in the background */
+.img-bg {
+  background:
+    url('../assets/Star.svg') no-repeat center 10%,
+    url('../assets/brushstroke.svg') no-repeat bottom center;
+  background-size: 20rem, 35rem;
+  padding: 2rem 2rem;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+
+.img-bg img {
+  width: 60%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: #8732a8;
+  font-weight: bold;
+}
+
+.navbar.no-border {
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+.text-purple {
+  color: #8732a8;
+  font-size: 0.85rem;
+}
+
+.text-right-hero {
+  max-width: 420px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .text-right-hero {
+    margin-right: 0;
+  }
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+.cursive em {
+  font-family: 'Dancing Script';
+  font-style: italic;
+}
+
+.navbar-nav .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8732a8 !important;
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active {
+  color: #8732a8 !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
